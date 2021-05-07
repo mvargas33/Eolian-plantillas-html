@@ -5,13 +5,176 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .topBotContainer {
+        display: flex;
+        width: 100%;
+        max-height: 13vh;
+        flex-direction: row;
+        justify-content: center;
+        /* background-color: blue; */
+    }
+    
+    .logoEolian {
+        width: 20%;
+        color: red;
+        padding-left: 5%;
+    }
+    
+    .contentContainer {
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .headline {
+        /* width: 100%; */
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.3vw;
+        font-weight: bold;
+        color: #399bc3;
+        padding-top: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .intro {
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.3vw;
+        font-weight: lighter;
+        color: #6c6c6c;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .seccionGris {
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.3vw;
+        font-weight: lighter;
+        color: #399bc3;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .seccionBlanca {
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.3vw;
+        font-weight: lighter;
+        color: #399bc3;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: transparent;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .textoContainer {
+        padding-left: 5%;
+        padding-right: 5%;
+        color: #6c6c6c;
+        max-width: calc(40%);
+    }
+    
+    .tituloSeccion {
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 2.1vw;
+        font-weight: bold;
+        color: #000000;
+    }
+    
+    .imagenContainer {
+        padding: 5%;
+        max-width: calc(40%);
+    }
+    
+    .imagenes {
+        max-width:100%;
+        max-height:100%;
+        border-radius: 5%;
+    }
+    
+    .footer {
+        padding-top: 2%;
+    }
+    
+    .firma {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 1.3vw;
+        padding-left: 5%;
+        padding-right: 5%;
+        justify-content: space-between;
+    }
+    
+    .firmaEolian {
+        color: #c24a4f;
+        text-align: left;
+        font-weight: bold;
+        max-width: 25%;
+    }
+    
+    .correoEolian {
+        color: #b3b2b2;
+        max-width: 25%;
+        margin: auto;
+    }
+    
+    .instagramEolian {
+        color: #b3b2b2;
+        max-width: 25%;
+        margin: auto;
+    }
+    
+    .paginawebEolian {
+        color: #3b9cc4;
+        max-width: 25%;
+        margin: auto;
+    }
+    
+    .verticalLine {
+        border-left: 1px solid #b3b2b2;
+        height: 100%px;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+    </style>
 </head>
 <body>
     <div class="container">
-        <img src="top.png" class="upImage"></div>
+        <div class="topBotContainer">
+            <img src="https://i.imgur.com/VHt04eP.png" class="upImage">
+        </div>
         <div class="contentContainer">
-            <img src="LogoEolian.svg" class="logoEolian">
+            <img src="https://svgshare.com/i/X11.svg" class="logoEolian">
             <p class="headline"> 
                 Estimada comunidad Enel X:
             </p>
@@ -30,13 +193,13 @@
                     </p>
                 </div>
                 <div class="imagenContainer">
-                    <img src="1.jpeg" class="imagenes">
+                    <img src="https://i.imgur.com/uoyhFYg.jpeg" class="imagenes">
                 </div>
             </div>
 
             <div class="seccionBlanca">
                 <div class="imagenContainer">
-                    <img src="2.jpg" class="imagenes">
+                    <img src="https://i.imgur.com/GXJBAYi.jpeg" class="imagenes">
                 </div>
                 <div class="textoContainer">
                     <p class="tituloSeccion">Eléctrica</p>
@@ -60,7 +223,7 @@
                     </p>
                 </div>
                 <div class="imagenContainer">
-                    <img src="1.jpeg" class="imagenes">
+                    <img src="https://i.imgur.com/uoyhFYg.jpeg" class="imagenes">
                 </div>
             </div>
 
@@ -90,8 +253,9 @@
         </div>
 
 
-
-        <img src="bottom.png" class="botImage"></div>
+        <div class="topBotContainer">
+            <img src="https://i.imgur.com/VUes6pV.png" class="botImage">
+        </div>
     </div>
     
 </body>
