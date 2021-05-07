@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.upImage {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* background-color: blue; */
+}
+
+.botImage {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+}
+
+.logoEolian {
+    width: 20%;
+    color: red;
+    padding-left: 5%;
+}
+
+.contentContainer {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.headline {
+    /* width: 100%; */
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: #399bc3;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.3vw;
+    font-weight: lighter;
+    color: #6c6c6c;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.seccionGris {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.3vw;
+    font-weight: lighter;
+    color: #399bc3;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.seccionBlanca {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.3vw;
+    font-weight: lighter;
+    color: #399bc3;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.textoContainer {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #6c6c6c;
+    max-width: calc(40%);
+}
+
+.tituloSeccion {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 2.1vw;
+    font-weight: bold;
+    color: #000000;
+}
+
+.imagenContainer {
+    padding: 5%;
+    max-width: calc(40%);
+}
+
+.imagenes {
+    max-width:100%;
+    max-height:100%;
+    border-radius: 5%;
+}
+
+.footer {
+    padding-top: 2%;
+}
+
+.firma {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.3vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+.firmaEolian {
+    color: #c24a4f;
+    text-align: left;
+    font-weight: bold;
+    max-width: 25%;
+}
+
+.correoEolian {
+    color: #b3b2b2;
+    max-width: 25%;
+    margin: auto;
+}
+
+.instagramEolian {
+    color: #b3b2b2;
+    max-width: 25%;
+    margin: auto;
+}
+
+.paginawebEolian {
+    color: #3b9cc4;
+    max-width: 25%;
+    margin: auto;
+}
+
+.verticalLine {
+    border-left: 1px solid #b3b2b2;
+    height: 100%px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+/* Explicar cosas a rangos generales, por que existe este equipo, por que ahora  */
+
+/* explicar el problema general que se quiere, y objetivos
+los requisitos de lo que se quiere (eficiencia)
+eleccion de tecnologias y explicación de componentes principales (xbee, raspberry, etc)
+explicacion del flujo de los datos */
+
+/* explicar el modelo */
